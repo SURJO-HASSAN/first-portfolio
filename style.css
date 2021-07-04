@@ -2,7 +2,6 @@ body{
   
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
-    background-colo: rgb(112, 33, 168);
     margin: 0px;
 }
 .name{
@@ -60,3 +59,52 @@ section{
        background-size: auto;
       background-position-x:right;
   }
+h4{
+    color: orange;
+}
+.fine{
+    width: 40%;
+    margin-left: 5px;
+    margin-left: 5%;
+    box-shadow: 10px 10px 50px gray;
+    padding-left: 2%;
+    border-radius: 20px;
+
+    
+}
+#none{
+    text-align: left;
+    font-size: 55px;
+}
+#padding{
+    padding-left: 3%;
+}
+.hh{
+    font-size: 30px;
+}
+.pa{
+    font-size: 30px;
+}
+.experience{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: 5cm;
+    
+}
+#ho{
+    border-left: 17px solid;
+    border-image: linear-gradient(salmon, tomato);
+   border-image-slice: 1;
+   
+}
+#oh{
+    border-left: 17px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+ 
+}
+footer{
+    text-align: center;
+    font-size: 28px;
+}
