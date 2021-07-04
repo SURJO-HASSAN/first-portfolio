@@ -1,13 +1,15 @@
 body{
-    padding-left: 3%;
+  
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
     background-colo: rgb(112, 33, 168);
+    margin: 0px;
 }
 .name{
     color: orange;
 }
 section{
+    padding-left: 3%;
     display: flex;
 }
 .half{
@@ -31,4 +33,8 @@ section{
     background-image: radial-gradient(orange, tomato);
     padding: 10px 40px;
     border-radius: 15px;
+  }
+  .top-banner{
+      background-image: url(top-banner.png);
+      background-repeat: no-repeat;
   }
